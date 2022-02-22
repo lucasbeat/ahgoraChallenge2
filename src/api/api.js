@@ -1,5 +1,5 @@
 async function ytData(term) {
-  const KEY = "AIzaSyCQi-3MgbF44-qG7bDf8IEwpnAq48V-mas";
+  const KEY = "";
 
   const search = await fetch(
     `https://www.googleapis.com/youtube/v3/search?key=${KEY}&part=snippet&q=${term}&maxResults=5`
